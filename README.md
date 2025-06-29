@@ -5,6 +5,16 @@
 
 ## Tabela de Gastos
 
+| Quantidade | Componente | Descrição | Valor Unitário |
+|----------|----------|----------|----------|
+| 1 | Arduino | UNO | <> |
+| 1 | Protoboard | <> | <> |
+| 1 | Kit Jumper | <> | <> |
+| 1 | Buzzer | Passivo | <> |
+| 1 | Sensor Ultrassônico | <> | <> |
+
+
+Valor Total: R$ xx,xx
 
 ## Simulação no Tinkerkad
 
