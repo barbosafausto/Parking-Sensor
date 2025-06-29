@@ -1,6 +1,23 @@
 # Sensor de Estacionamento
 
+## Descrição da Atividade
+
+A atividade consistiu na montagem de um circuito que simula um sensor de estacionamento de carro.
+
+Dessa forma, construímos um circuito que regula a frequência de bip de um buzzer passivo com base na distância captada por um sensor ultrassônico.
+
+Dessa forma, uma menor distância entre sensor e obstáculo gera bips com maiores frequências, simulando um estacionamento.
+
+
 ## Alunos
+
+* José Fausto Vital Barbosa - 15512767
+
+* Pablo Henrique Almeida Vieira - 16895429
+
+* Pedro Paulo Carvalho Coutinho - 16897011
+
+* Roberto Brostel Barroso - 16899695
 
 
 ## Tabela de Gastos
