@@ -17,8 +17,6 @@ Link da Simulação: <>
 ## Código Usado
 
 ```C++
-//C++ Code
-
 // Pinagem
 const int trigPin = 13;
 const int echoPin = 12;
@@ -50,25 +48,25 @@ void loop() {
   //Distância baseada na duração e velocidade do som
   distance = duration * 0.034 / 2;
 
-  // Limita o mapeamento da distância de 0 a 100 cm
-  int distLimit = constrain(distance, 0, 100);
+  // Limita o mapeamento da distância de 0 a 200 cm
+  int distLimit = constrain(distance, 0, 200);
 
   // Mapeando a distância para valor PWM
-  int volume = map(distLimit, 0, 100, 5, 255);
+  int frequencia = map(distLimit, 0, 200, 255, 5);
   // 5 é o valor mínimo do buzzer (evitar silêncio do buzzer)
   //255 é o máximo (menor distância = maior frequência)
-  //Objeto mais próximo = PWM menor = buzzer com maior volume
+  //Objeto mais próximo = PWM maior = buzzer com maior frequência
   
-  // Fazendo o Buzzer apitar em intervalos de 10 ms
-  analogWrite(buzzerPin, volume); 
-  delay(10);                      // Duração do buzz
+  // Fazendo o Buzzer apitar em intervalos de 50 ms
+  analogWrite(buzzerPin, frequencia); 
+  delay(50);                      // Duração do buzz
   analogWrite(buzzerPin, 0);      // Off
-  delay(50);                      // Espera até próximo ciclo
+  delay(25);                      // Espera até próximo ciclo
 
   // --- Para debugar, é possível ver essas info no simulador ---
   Serial.print("Distância: ");
   Serial.print(distance);
-  Serial.print(" cm | Volume: ");
-  Serial.println(volume);
+  Serial.print(" cm | Frequência: ");
+  Serial.println(frequencia);
 }
 ```
