@@ -41,6 +41,10 @@ Link da Simulação: <>
 ## Projeto Físico
 
 
+## Vídeo Explicando o Circuito
+<Link YouTube>
+
+
 ## Código Usado
 
 ```C++
