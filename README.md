@@ -24,18 +24,19 @@ Dessa forma, uma menor distância entre sensor e obstáculo gera bips com maiore
 
 | Quantidade | Componente | Descrição | Valor Unitário |
 |----------|----------|----------|----------|
-| 1 | Arduino | UNO | <> |
-| 1 | Protoboard | <> | <> |
-| 1 | Kit Jumper | <> | <> |
-| 1 | Buzzer | Passivo | <> |
-| 1 | Sensor Ultrassônico | <> | <> |
+| 1 | Arduino | UNO | R$ 108,00 |
+| 1 | Protoboard | BB-01 400P | R$ 21,70 |
+| 1 | Kit Jumper | Macho-Macho + Macho-Fêmea | R$ 14,00 |
+| 1 | Buzzer | Passivo 5V | R$ 12,00 |
+| 1 | Sensor Ultrassônico | SR04-Open | R$ 7,00 |
 
 
-Valor Total: R$ xx,xx
+Valor Total: R$ 162,70
+
 
 ## Simulação no Tinkerkad
 
-Link da Simulação: <>
+![](Imagens/Tinkercad2.png)
 
 
 ## Projeto Físico
