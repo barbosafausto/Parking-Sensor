@@ -48,6 +48,8 @@ Link da Simulação: <>
 ## Código Usado
 
 ```C++
+//C++ Code
+
 // Pinagem
 const int trigPin = 13;
 const int echoPin = 12;
@@ -83,15 +85,15 @@ void loop() {
   int distLimit = constrain(distance, 0, 200);
 
   // Mapeando a distância para valor PWM
-  int frequencia = map(distLimit, 0, 200, 255, 5);
+  int frequencia = map(distLimit, 0, 200, 6000, 200);
   // 5 é o valor mínimo do buzzer (evitar silêncio do buzzer)
   //255 é o máximo (menor distância = maior frequência)
   //Objeto mais próximo = PWM maior = buzzer com maior frequência
   
   // Fazendo o Buzzer apitar em intervalos de 50 ms
-  analogWrite(buzzerPin, frequencia); 
+  tone(buzzerPin, frequencia); 
   delay(50);                      // Duração do buzz
-  analogWrite(buzzerPin, 0);      // Off
+  noTone(buzzerPin);      // Off
   delay(25);                      // Espera até próximo ciclo
 
   // --- Para debugar, é possível ver essas info no simulador ---
