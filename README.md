@@ -88,11 +88,10 @@ void loop() {
   // Limita o mapeamento da distância de 0 a 200 cm
   int distLimit = constrain(distance, 0, 200);
 
-  // Mapeando a distância para valor PWM
+  // Mapeando a distância para valor da frequência
   int frequencia = map(distLimit, 0, 200, 6000, 200);
-  // 5 é o valor mínimo do buzzer (evitar silêncio do buzzer)
-  //255 é o máximo (menor distância = maior frequência)
-  //Objeto mais próximo = PWM maior = buzzer com maior frequência
+  //200 é o valor mínimo do buzzer (evitar silêncio do buzzer)
+  //6000 é o máximo (menor distância = maior frequência)
   
   // Fazendo o Buzzer apitar em intervalos de 50 ms
   tone(buzzerPin, frequencia); 
