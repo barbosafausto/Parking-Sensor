@@ -34,7 +34,7 @@ Dessa forma, uma menor distância entre sensor e obstáculo gera bips com maiore
 Valor Total: R$ 162,70
 
 
-## Simulação no Tinkerkad
+## Simulação no Tinkercad
 
 ![](Imagens/Tinkercad2.png)
 
