@@ -41,6 +41,9 @@ Valor Total: R$ 162,70
 
 ## Projeto Físico
 
+![](Imagens/Fisico21.jpg)
+![](Imagens/Fisico22.jpg)
+
 
 ## Vídeo Explicando o Circuito
 ==Link YouTube==
