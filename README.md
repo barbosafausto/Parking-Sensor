@@ -46,7 +46,10 @@ Valor Total: R$ 162,70
 
 
 ## Vídeo Explicando o Circuito
-==Link YouTube==
+### Explicação
+
+### Funcionamento
+https://youtube.com/shorts/-BhHhLU4CEw?si=Rt4FrAWzk-kkqUMs
 
 
 ## Código Usado
